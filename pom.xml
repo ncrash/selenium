@@ -1,6 +1,36 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>kr.w3labs</groupId>
-  <artifactId>operadrvier-selenium-webdriver-sample</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>kr.w3labs</groupId>
+	<artifactId>opera-helloworld-selenium-webdriver</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<developers>
+		<developer>
+			<id>daekwon</id>
+			<name>Daekwon Kang</name>
+			<email>daekwon@w3labs.kr</email>
+			<url>http://twitter.com/#!/ncrash</url>
+			<organization>Future Web Technology Labs</organization>
+			<organizationUrl>http://w3labs.kr/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+9</timezone>
+			<properties>
+				<picUrl>http://goo.gl/02Rdn</picUrl>
+			</properties>
+		</developer>
+	</developers>
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.21.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.opera</groupId>
+			<artifactId>operadriver</artifactId>
+			<version>0.13</version>
+		</dependency>
+	</dependencies>
 </project>
